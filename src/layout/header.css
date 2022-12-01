@@ -1,0 +1,42 @@
+.header {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding-bottom: 15px;
+}
+
+button {
+    background-color: transparent;
+    border: 0px solid #0082b0;
+    color: #eee;
+    padding-right: 20px;
+    padding-top: 16px;
+
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ffff;
+    display: grid;
+    place-content: center;
+    }
+    .header_menuBtn {
+      position: relative;
+      z-index: 10;
+    }
+    .noscroll,
+    .noscroll body {
+      overflow: hidden;
+    }
+
+.globe {
+    width: 51px;
+	height: 51px;
+    padding-top: 16px;
+    padding-left: 20px;
+}

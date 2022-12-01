@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Revenge</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+
     <link rel="stylesheet" href="src/style.css">
-    <img src="public/img/globe-red 1.svg" alt="Globe rouge permettant de choisir la langue">
-    <img src="public/img/menu-red.svg" alt="Trois barres permettant d'ouvrir le menu">
 </head>
 <body>
-    <img src="public/img/logo.webp" alt="Logo Time Revenge">
+    <header class="header">
+        <img class="globe" src="public/img/globe-red 1.svg" alt="Icone planete">
+        <button aria-controls="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+          <img src="public/img/menu-red.svg" alt="icone de menu">
+        </button>
+        <nav id="mainNav" x-show="menuIsOpen"
+        class="menu"
+        >
+          <ul>
+            <li><img src="public/img/home-red 1.webp" alt="Maison rouge"><a href="/">Acceuil</a></li>
+            <li><img src="public/img/fujicons4 2.webp" alt="Montagne rouge"><a href="monf-fuji-fr.html">Le mont Fuji</a></li>
+            <li><img src="public/img/BOOK-RED 1.webp" alt="Livre rouge"><a href="tokyo-revengers-fr.html">Tokyo revengers</a></li>
+            <li><img src="public/img/MIC-RED 1.webp" alt="Microphone rouge"><a href="/">Nepal - Sundace</a></li>
+            <li><img src="public/img/MOVIE-RED 1.webp" alt="Icone film"><a href="origine-fr.html">Origine</a></li>
+            <li><img src="public/img/HOPE-RED 1.webp" alt="Iconre espoir rouge"><a href="espoir-fr.html">Espoir</a></li>
+            <li><img src="public/img/REGRET-RED 1.webp" alt="Emojie triste rouge"><a href="regret-fr.html">Regres</a></li>
+            <li><img src="public/img/A Propos-red 1.webp" alt="Point d'interrogation rouge"><a href="/">A propos</a></li>
+          </ul>
+        </nav>
+      </header>
+    <img class="logo" src="public/img/logo.webp" alt="Logo Time Revenge">
     <section>
         <h2>Introduction</h2>
         <p>Bonjour et bienvenue sur le site Time Revenge. </p>
@@ -41,13 +64,17 @@
         <h3>La dépendance aux reseaux sociaux des nouvelles générations</h3>
     </section>
 </body>
-<footer>
-    <h1>Time Revenge</h1>
-    <a href="a-propos.html">A propos</a>
+<footer class="footer">
+    <div class="ligne-footer">
+    </div>
+    <h1 class="header-title">Time Revenge</h1>
+    <div class="liste-footer">
+    <a class="liste-footer1" href ="a-propos.html">A propos</a>
     <a href="autres-projets.html">Autres projets</a>
     <a href="contact-fr.html">Contact</a>
+    </div>
     <h3>Mailto</h3>
     <p>projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
-    <p>© Time Revenge BUT MMI 2022</p>
+    <p class="copyright">© Time Revenge BUT MMI 2022</p>
 </footer>
 </html>

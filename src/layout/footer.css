@@ -1,0 +1,31 @@
+.footer {
+    background-color: #ffff;
+    padding-bottom: 20px;
+
+}
+
+.header-title {
+    display: block;
+    padding-top: 40px;
+    margin-left: 80px;
+    margin-right: auto;
+    font-family: 'Alkalami', serif;
+    font-weight: 32;
+}
+
+.ligne-footer {
+    width  : 375px;
+    height : 3px;
+    background : black;
+  }
+
+.copyright {
+    font-size: small;
+    padding-left: 20px;
+}
+
+.liste-footer1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: large;
+}

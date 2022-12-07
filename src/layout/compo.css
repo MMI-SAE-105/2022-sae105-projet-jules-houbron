@@ -1,0 +1,100 @@
+
+
+.logo {
+    position: relative;
+    display: block;
+    margin-top: 81px;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 85%;
+	height: auto;
+}
+
+body {
+    background-color: #FFFBE1;
+}
+
+.title-intro {
+    display: block;
+    margin-top: 163px;
+    margin-left: 102px;
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.2266px;
+    line-height: 100%;
+    z-index: 0;
+
+}
+
+.texte-intro {
+    display: block;
+    margin-top: 51px;
+    margin-left: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    z-index: 0;
+}
+
+.texte-intro2 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    z-index: 0;
+}
+
+.cercle-intro {    
+    position: absolute;
+    overflow-x: hidden;
+    left: 7px;
+    top: 345px;
+    z-index: -2;
+}
+
+.rectangle-intro {
+    width: 206px;
+    height: 18px;
+    background-color: white;
+    position: absolute;
+    left: 102px;
+    top: 427px;
+    z-index: -1;
+}
+
+.temple-intro {
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    left: -41px;
+    top: 707px;
+    z-index: -1;
+}
+
+.rectangle-blanc-intro {
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    left: -41px;
+    top: 1000px;
+    z-index: -1;
+}
+
+.fond-intro-beige {
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    right: 20px;
+    top: 1300px;
+    z-index: -1;
+}
+

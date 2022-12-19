@@ -150,11 +150,3 @@ body {
     width: 100%;
     overflow: hidden;
 }
-
-.menu {
-    z-index: 2;
-}
-.menu_logo_1 {
-    width: 30%;
-    height: auto;
-}

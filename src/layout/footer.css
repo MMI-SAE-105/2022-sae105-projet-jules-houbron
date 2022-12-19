@@ -55,7 +55,8 @@ a {
 .footer::before {    
     position: absolute;
     overflow-x: hidden;
-    left: 315px;
-    top: 115px;
-content: url(../../public/img/cercle.svg);
+    left: 325px;
+    top: 45px;
+    width: 100%;
+    content: url(../../public/img/Cercle.svg);
 }

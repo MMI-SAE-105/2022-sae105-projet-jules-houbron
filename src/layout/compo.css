@@ -137,7 +137,9 @@ body {
     content: url(../../public/img/Rectangle\ 23.svg);
     position: absolute;
     z-index: 0;
+    max-width: 100%;
     top: 1010px;
+    overflow: hidden;
 }
 
 .tc-container::after {
@@ -145,7 +147,14 @@ body {
     position: absolute;
     z-index: 1;
     top: 1600px;
-    
     width: 100%;
     overflow: hidden;
+}
+
+.menu {
+    z-index: 2;
+}
+.menu_logo_1 {
+    width: 30%;
+    height: auto;
 }

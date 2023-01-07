@@ -120,3 +120,54 @@
     top: -95px;
     left: 230px;
 }
+
+.card-livre {
+    background-color: black;
+    border-radius: 20px;
+    width: 21.375em;
+    height: 14.188em;
+    z-index: 2;
+}
+
+.container-livre {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-text-livre {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.2266px;
+    line-height: 100%;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.img-card-livre {
+    position: relative;
+    top: 16px;
+    left: 21px;
+    border-radius: 20px;
+    width: 18.75em;
+    z-index: 3;
+}
+
+.img-icon-livre {
+    position: relative;
+    top: -88px;
+    left: 277px;
+}
+
+.img-arrow-livre {
+    position: relative;
+    top: -95px;
+    left: 230px;
+}

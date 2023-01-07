@@ -442,9 +442,9 @@ padding-right: 20px;
 
 .img2-tr-fr {
     position: absolute;
-left: 222px;
-top: 1490px;
-overflow-x: hidden;
+    left: 222px;
+    top: 1490px;
+    overflow-x: hidden;
 }
 
 .h3-tr-fr::after {

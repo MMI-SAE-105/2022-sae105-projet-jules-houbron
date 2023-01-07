@@ -1,4 +1,42 @@
+h1 {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.2266px;
+    line-height: 100%;
+}
 
+h2 {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+h3 {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+h4 {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
 
 .logo {
     position: relative;
@@ -18,11 +56,6 @@ body {
     display: block;
     margin-top: 163px;
     margin-left: 102px;
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34.2266px;
-    line-height: 100%;
     z-index: 0;
 
 }
@@ -31,11 +64,6 @@ body {
     display: block;
     margin-top: 51px;
     margin-left: 20px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color: #FFFFFF;
     z-index: 0;
 }
@@ -44,11 +72,6 @@ body {
     display: block;
     margin-top: 10px;
     margin-left: 20px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color: #FFFFFF;
     z-index: 0;
 }
@@ -155,11 +178,6 @@ body {
 }
 
 .h1-mf-fr {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34.2266px;
-    line-height: 100%;
     display: block;
     padding-top: 117px;
     text-align: center;
@@ -185,11 +203,6 @@ body {
 }
 
 .t1-mf-fr {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 100%;
     color: #FFFFFF;
     display: block;
     padding-top: 240px;
@@ -197,11 +210,6 @@ body {
 }
 
 .a1-mf-fr-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color:#FFFFFF ;
     display: block;
     text-align: center;
@@ -211,11 +219,6 @@ body {
 }
 
 .a1-mf-fr-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color:#FFFFFF ;
     display: block;
     text-align: center;
@@ -233,11 +236,6 @@ body {
 }
 
 .t2-mf-fr {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 100%;
     color: black;
     display: block;
     text-align: center;
@@ -245,11 +243,6 @@ body {
 }
 
 .a2-mf-fr-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color: black;
     display: block;
     padding-left: 22px;
@@ -258,11 +251,6 @@ body {
 }
 
 .a2-mf-fr-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color: black;
     display: block;
     padding-left: 22px;
@@ -284,11 +272,6 @@ body {
 }
 
 .a2-mf-fr-p3 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     display: block;
     padding-top: 50px;
     padding-left: 20px;
@@ -306,33 +289,18 @@ body {
 }
 
 .t3-mf-fr {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 100%;
     display: block;
     text-align: center;
     padding-top: 160px;
 }
 
 .a3-mf-fr-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 60px;
 }
 
 .a3-mf-fr-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
@@ -343,11 +311,6 @@ body {
 }
 
 .h1-tr-fr {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34.2266px;
-    line-height: 100%;
     display: block;
     text-align: center;
     padding-top: 106px;
@@ -364,16 +327,11 @@ body {
 }
 
 .a1-tr-fr-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 180px;
+    color: #FFFFFF;
 }
 
 .img1-tr-fr {
@@ -388,11 +346,6 @@ body {
 }
 
 .a1-tr-fr-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 100%;
     color: #FFFFFF;
     display: block;
     text-align: center;
@@ -409,23 +362,13 @@ body {
 }
 
 .h2-tr-fr {
-    font-family: 'Alkalami';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 100%;
 z-index: 2;
 display: block;
-padding-top: 110px;
+padding-top: 0px;
 padding-left: 20px;
 }
 
 .a2-tr-fr-p1 {
-    font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 120%;
 display: block;
 padding-left: 20px;
 padding-right: 20px;
@@ -457,33 +400,18 @@ padding-right: 20px;
 
 
 .h3-tr-fr {
-    font-family: 'Alkalami';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 100%;
 color: #FFFFFF;
 padding-top: 550px;
 padding-left: 20px;
 }
 
 .a3-tr-fr-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color: #FFFFFF;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .a3-tr-fr-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     color: #FFFFFF;
     padding-top: 10px;
     padding-left: 20px;
@@ -517,11 +445,6 @@ padding-left: 20px;
 }
 
 .a4-tr-fr-p1{
-    font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 120%;
 padding-left: 20px;
 padding-right: 20px;
 padding-top: 10px;
@@ -539,11 +462,6 @@ padding-top: 10px;
 }
 
 .a1-np-h1 {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 100%;
     color: black;
     display: block;
     padding-top: 410px;
@@ -578,33 +496,18 @@ padding-top: 10px;
 }
 
 .a1-np-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .a1-np-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .a1-np-p3 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
@@ -622,11 +525,6 @@ padding-top: 10px;
 }
 
 .a2-np-h1 {
-    font-family: 'Alkalami';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 100%;
     color: white;
     display: block;
     padding-top: 44px;
@@ -635,11 +533,6 @@ padding-top: 10px;
 }
 
 .a2-np-p1 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
@@ -647,22 +540,12 @@ padding-top: 10px;
 }
 
 .a2-np-p2 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
     color: #FFFFFF;
 }
 .a2-np-p3 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
@@ -677,11 +560,6 @@ padding-top: 10px;
 }
 
 .a2-np-p4 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
     display: block;
     margin-left: 20px;
     margin-right: 20px;

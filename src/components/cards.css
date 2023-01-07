@@ -70,3 +70,46 @@
     position: relative;
     top: 0em;
 }
+
+.card-frise {
+    background-color: #E00014;
+    border-radius: 20px;
+    width: 21.375em;
+    height: 14.188em;
+    z-index: 2;
+}
+
+.container-frise {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-text-frise {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.2266px;
+    line-height: 100%;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    z-index: 3;
+}
+
+.img-card-frise {
+    position: relative;
+    top: 16px;
+    left: 21px;
+    border-radius: 20px;
+    width: 18.75em;
+    z-index: 3;
+}
+
+.img-icon-frise {
+    position: relative;
+    top: -88px;
+    left: 277px;
+}

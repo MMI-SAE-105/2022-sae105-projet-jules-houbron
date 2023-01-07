@@ -1,34 +1,70 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le mont Fuji</title>
-    <img src="public/img/globe-red 1.svg" alt="Globe rouge permettant de choisir la langue">
-    <img src="public/img/menu-red.svg" alt="Trois barres permettant d'ouvrir le menu">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/style.css">
 </head>
-<body>
-    <h1>Le mont Fuji</h1>
-    <h3>Au dessus des nuages</h3>
-    <p>Le mont Fuji est un volcan culminant à 3 776 mètres de haut, ce qui est le point le plus haut du Japon. Ayant une symétrie presque parfaite, le mont Fuji,
+<body class="body-mont-fuji-fr">
+    <header class="header">
+        <img class="globe" src="public/img/globe-red 1.svg" alt="Icone planete">
+        <button aria-controls="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+          <img src="public/img/menu-red.svg" alt="icone de menu">
+        </button>
+        <nav id="mainNav" x-show="menuIsOpen"
+        class="menu">
+          <ul>
+            <li><img class="menu_logo_1" src="public/img/home-red 1.webp" alt="Maison rouge"><a class="menu_titre_1" href="/">Acceuil</a></li>
+            <li><img class="menu_logo_2" src="public/img/fujicons4 2.webp" alt="Montagne rouge"><a class="menu_titre_2" href="monf-fuji-fr.html">Le mont Fuji</a></li>
+            <li><img class="menu_logo_3" src="public/img/BOOK-RED 1.webp" alt="Livre rouge"><a class="menu_titre_3" href="tokyo-revengers-fr.html">Tokyo revengers</a></li>
+            <li><img class="menu_logo_4" src="public/img/MIC-RED 1.webp" alt="Microphone rouge"><a class="menu_titre_4" href="/">Nepal - Sundace</a></li>
+            <li><img class="menu_logo_5" src="public/img/MOVIE-RED 1.webp" alt="Icone film"><a class="menu_titre_5" href="origine-fr.html">Origine</a></li>
+            <li><img class="menu_logo_6" src="public/img/HOPE-RED 1.webp" alt="Iconre espoir rouge"><a class="menu_titre_6" href="espoir-fr.html">Espoir</a></li>
+            <li><img class="menu_logo_7" src="public/img/REGRET-RED 1.webp" alt="Emojie triste rouge"><a class="menu_titre_7" href="regret-fr.html">Regres</a></li>
+            <li><img class="menu_logo_8" src="public/img/A Propos-red 1.webp" alt="Point d'interrogation rouge"><a class="menu_titre_8" href="/">A propos</a></li>
+          </ul>
+        </nav>
+      </header>
+    <h1 class="h1-mf-fr">Le mont Fuji</h1>
+    <div class="rectangle-intro-mf-fr"></div> 
+    <h3 class="t1-mf-fr">Au dessus des nuages</h3>
+    <p class="a1-mf-fr-p1">Le mont Fuji est un volcan culminant à 3 776 mètres de haut, ce qui est le point le plus haut du Japon. Ayant une symétrie presque parfaite, le mont Fuji,
     nommé ainsi par les premiers habitants du pays, les Aïnous, en référence à leur dieu du Feu nommé Fuchi.</p>
-    <p>Bien que dégageant calme et sérénité, le Mont Fuji est toujours considéré comme un volcan en activité et doit cette forme quasi symétrique à sa dernière éruption,
+    <p class="a1-mf-fr-p2">Bien que dégageant calme et sérénité, le Mont Fuji est toujours considéré comme un volcan en activité et doit cette forme quasi symétrique à sa dernière éruption,
     appelée “grande éruption Hōei”, qui a commencé le 16 décembre 1707 et qui s’est terminée aux alentours du 24 février 1708.</p>
-    <h3>Une source d’inspiration artistique</h3>
-    <p> Sa grandeur et sa beauté ont fait du mont Fuji une source d’inspiration pour bon nombre d'artistes japonais et du monde entier. <br>
+    <h3 class="t2-mf-fr">Une source d’inspiration artistique</h3>
+    <p class="a2-mf-fr-p1"> Sa grandeur et sa beauté ont fait du mont Fuji une source d’inspiration pour bon nombre d'artistes japonais et du monde entier. <br>
     L'ascension du mont fut interdite aux femmes pendant des siècles, ce qui a permis aux artistes de jouer de se tabou lors de leurs représentations. </p>
-    <p>Le peintre et graveur Katsushika Hokusai,surnommé « Vieux Fou de dessin », réalisa la  série des Trente-Six Vues du mont Fuji dont fait partis la célèbre vague de Kanagawa, dans les années 1820</p>
-        <img src="public/img/Vague-kanagawa.webp" alt="vague de kanagawa">
-        <img src="public/img/Mont-fuji-article.webp" alt="Illustration du mont fuji">
-        <p>Le lieu est classé en 2013 au patrimoine mondial de l’Unesco comme “lieu sacré et source d’inspiration artistique”.</p>
-        <h3>"Celui qui gravit le mont Fuji une fois est un sage, celui qui le fait deux fois est un fou"</h3>
-        <p>J’aime beaucoup ce lieu puisqu’il dégage un sentiment de calme et de sérénité, c’est un lieu très spirituel, qui est considéré comme un lieu sacré dans plusieurs religions tel que le shintoïsme,
+    <p class="a2-mf-fr-p2">Le peintre et graveur Katsushika Hokusai,surnommé « Vieux Fou de dessin », réalisa la  série des Trente-Six Vues du mont Fuji dont fait partis la célèbre vague de Kanagawa, dans les années 1820</p>
+        <img class="img-a-mf-fr" src="public/img/Vague-kanagawa.webp" alt="vague de kanagawa">
+        <img class="img-a-mf-fr" src="public/img/Mont-fuji-article.webp" alt="Illustration du mont fuji">
+        <p class="a2-mf-fr-p3"> Le lieu est classé en 2013 au patrimoine mondial de l’Unesco comme “lieu sacré et source d’inspiration artistique”.</p>
+        <h3 class="t3-mf-fr">"Celui qui gravit le mont Fuji une fois est un sage, celui qui le fait deux fois est un fou"</h3>
+        <p class="a3-mf-fr-p1">J’aime beaucoup ce lieu puisqu’il dégage un sentiment de calme et de sérénité, c’est un lieu très spirituel, qui est considéré comme un lieu sacré dans plusieurs religions tel que le shintoïsme,
         la religion dominante au Japon. Les adeptes du shintoïsme considèrent que les sites naturels sont des lieux où résident les esprits, appelés kami. La déesse Sengen-sama est le kami résidant au mont Fuji,
         associée à la floraison des arbres, elle empêche le volcan d'entrer en éruption en échange du respect qui lui est dû.</p>
-        <p>Gravir le mont Fuji est une façon d'honorer la déesse Sengen-sama ainsi que de purifier son âme. L'ascension est, pour les Bouddhiste, une métaphore du chemin vers l’éveil,
+        <p class="a3-mf-fr-p2">Gravir le mont Fuji est une façon d'honorer la déesse Sengen-sama ainsi que de purifier son âme. L'ascension est, pour les Bouddhiste, une métaphore du chemin vers l’éveil,
         l'ascension commence dans la nature verdoyante et se termine dans les hautes terres rouges constitué de pierre volcanique considérée comme le monde des dieux de la mort. </p>
-        <a href="frise-fr"><img src="public/img/CARD LIEUX SIMILAIRE.webp" alt="Photographie du mont blanc"></a>
+        <a href="frise-fr.html">
+            <div class="container-frise">
+                <div class="card-frise">
+                    <div class="card-pic-frise">
+                    <img class="img-card-frise" src="public/img/CARD LIEUX SIMILAIRE.webp" alt="Mont Blanc">
+                    </div>
+                    <div class="card-text-frise">
+                    <p>Lieux similaires</p>
+                    </div>
+                    <img class="img-icon-frise" src="public/img/icon-card-frise.svg" alt="icone aller à">
+                    <img class="img-icon-frise" src="public/img/icon-card-frise.svg" alt="icone aller à">
+                </div>
+            </div>
+        </a>
 </body>
 <footer>
     <h1>Time Revenge</h1>

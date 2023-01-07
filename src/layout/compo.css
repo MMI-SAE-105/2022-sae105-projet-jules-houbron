@@ -526,3 +526,175 @@ padding-left: 20px;
 padding-right: 20px;
 padding-top: 10px;
 }
+
+.body-np {
+    background-color: #000000;
+}
+
+.a1-np-h1::after {
+    content: url(../../public/img/titre-nepal.svg);
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+
+.a1-np-h1 {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: black;
+    display: block;
+    padding-top: 410px;
+    padding-left: 20px;
+}
+
+.a1-np-p1::after {
+    content: url(../../public/img/nepal-fond-intro1.svg);
+    position: absolute;
+    left: -1px;
+    top: 300px;
+    z-index: -1;
+
+}
+
+.a2-np-h1::after {
+    content: url(../../public/img/nepal-fond-intro2.svg);
+    position: absolute;
+    left: 0px;
+    top: 450px;
+    z-index: -1;
+}
+
+.rectangle-nepal {
+    width: 375px;
+    height: 660px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 500px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.a1-np-p1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a1-np-p2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a1-np-p3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a1-np-img {
+    border: 3px solid #000000;
+    border-radius: 20px;
+    width: 333px;
+    height: 188px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a2-np-h1 {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: white;
+    display: block;
+    padding-top: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a2-np-p1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
+.a2-np-p2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+.a2-np-p3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
+.a2-np-p3::after {
+    content: url(../../public/img/fond-beige-nepal.svg);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.a2-np-p4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+video {
+    max-width: 100%;
+    width: 335px;
+    height: 189px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}

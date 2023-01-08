@@ -839,3 +839,121 @@ video {
     text-align: center;
     padding-top: 30px;
 }
+
+.body-frise {
+    background-color: #FFFFFF;
+}
+
+.body-frise h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.body-frise img {
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.body-frise h3 {
+    text-align: center;
+    color: #E00014;
+    background-color: #FFFFFF;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.everest {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin-top: 150px;
+}
+
+.denali {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+.kilimanjaro {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin-top: 60px;
+}
+
+.mont-blanc {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+.mont-fuji {
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    margin-top: 60px;
+}
+
+.everest::after {
+    content: url(../../public/img/fond-frise.svg);
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    z-index: -1;
+}
+
+.body-a-propos {
+    background: #FFFFFF;
+}
+
+#avatar {
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc p:first-child {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.desc::after {
+    content: url(../../public/img/fond-ap.svg);
+    position: absolute;
+    z-index: -1;
+    top: 35px;
+}
+
+.desc p {
+    text-align: center;
+    margin-bottom: -10px;
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.a1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+.insta {
+    margin-top: 20px;
+    margin-left: 20px
+}

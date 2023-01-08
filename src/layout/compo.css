@@ -364,7 +364,7 @@ body {
 .h2-tr-fr {
 z-index: 2;
 display: block;
-padding-top: 0px;
+padding-top: 70px;
 padding-left: 20px;
 }
 
@@ -844,7 +844,7 @@ video {
     background-color: #FFFFFF;
 }
 
-.body-frise h1 {
+.frise h1 {
     text-align: center;
     padding-top: 40px;
 }
@@ -967,10 +967,11 @@ figcaption {
     background-color: #FFFFFF;
 }
 
-.body-autre p {
+.projets p {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 90px;
+    margin-bottom: 40px;
 }
 
 .body-autre::after {
@@ -985,17 +986,52 @@ figcaption {
     margin-bottom: -90px;
 }
 
-.body-autre p {
-    margin-left: 20px;
-    margin-bottom: 40px;
-}
 
 .body-autre h3:first-child {
     padding-top: 90px;
 } 
 
-.body-autre img {
+.projets img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.body-contact {
+    background-color: #FFFFFF;
+}
+
+.btn-contact{
+    margin-left: 300px;
+    margin-top: -40px;
+}
+
+.body-contact textarea{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 5em;
+    vertical-align: top;
+    width: 335px;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.body-contact label{
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    margin-top: 90px;
+}
+
+.h1-contact {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.body-contact form{
+    margin-left:20px ;
+    margin-right: 20px;
 }

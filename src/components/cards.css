@@ -95,8 +95,8 @@
     line-height: 100%;
     color: white;
     position: relative;
-    left: 20px;
-    top: -10px;
+    left: 60px;
+    top: -25px;
     z-index: 3;
 }
 
@@ -111,13 +111,13 @@
 
 .img-icon-frise {
     position: relative;
-    top: -88px;
+    top: -113px;
     left: 277px;
 }
 
 .img-arrow-frise {
     position: relative;
-    top: -95px;
+    top: -120px;
     left: 230px;
 }
 
@@ -145,8 +145,8 @@
     line-height: 100%;
     color: white;
     position: relative;
-    left: 20px;
-    top: -10px;
+    left: 60px;
+    top: -25px;
     z-index: 3;
     overflow: hidden;
 }
@@ -162,12 +162,63 @@
 
 .img-icon-livre {
     position: relative;
-    top: -88px;
+    top: -113px;
     left: 277px;
 }
 
 .img-arrow-livre {
     position: relative;
-    top: -95px;
+    top: -120px;
+    left: 230px;
+}
+
+.card-filmo {
+    background-color: white;
+    border-radius: 20px;
+    width: 21.375em;
+    height: 14.188em;
+    z-index: 2;
+}
+
+.container-filmo {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-text-filmo {
+    font-family: 'Alkalami';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34.2266px;
+    line-height: 100%;
+    color: black;
+    position: relative;
+    left: 60px;
+    top: -25px;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.img-card-filmo {
+    position: relative;
+    top: 16px;
+    left: 21px;
+    border-radius: 20px;
+    width: 18.75em;
+    z-index: 3;
+}
+
+.img-icon-filmo {
+    position: relative;
+    top: -114px;
+    left: 277px;
+}
+
+.img-arrow-filmo {
+    position: relative;
+    top: -121px;
     left: 230px;
 }

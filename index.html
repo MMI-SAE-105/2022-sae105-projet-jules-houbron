@@ -9,7 +9,14 @@
 </head>
 <body>
     <header class="header">
-        <img class="globe" src="public/img/globe-red 1.svg" alt="Icone planete">
+        <div class="nav-toggle-lng" onclick="document.documentElement.classList.toggle('menu-open-lng')">
+            <img class="nav-icon" src="public/img/globe-red 1.svg" alt="Icone planete">
+        </div>
+        <nav class="menu-lng">
+            <ul>
+                <li><a href="">Français</a></li>
+                <li><a href="">English</a></li>
+        </nav>
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
             <div class = "nav-toggle-bar"></div>
         </div>

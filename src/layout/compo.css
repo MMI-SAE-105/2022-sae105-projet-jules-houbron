@@ -576,3 +576,140 @@ video {
     margin-right: auto;
     margin-top: 100px;
 }
+
+.h1-or-fr {
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.img1-or {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    width: 333px;
+    height: 188px;
+    margin-top: 120px;
+}
+
+.body-origine p {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a1-or-p1 {
+    padding-top: 100px;
+}
+
+.a2-or-h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a3-or-h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    padding-top: 140px;
+}
+
+.h1-or-fr::after {
+    content: url(../../public/img/fond-blanc-origine.svg);
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    top: 660px;
+}
+
+.a3-or-h1::after {
+    content: url(../../public/img/fond-noir-origine.svg);
+    position: absolute;
+    left: 0px;
+    top: 1290px;
+    z-index: -1;
+}
+
+.a3-or-p1 {
+    color: #FFFFFF;
+}
+
+.a3-or-p2 {
+    color: #FFFFFF;
+}
+
+.a3-or-p3 {
+    color: #FFFFFF;
+}
+
+
+.a3-or-p4 {
+    color: #FFFFFF;
+}
+
+.a3-or-p5 {
+    color: #FFFFFF;
+}
+
+.rectangle-origine {
+    position: absolute;
+    z-index: -1;
+    width: 375px;
+    height: 900px;
+    top: 1700px;
+    background-color: #000000;
+}
+
+.body-espoir {
+    background-color: #000000;
+}
+
+.h1-esp {
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    padding-top: 119px;
+}
+
+.h1-esp::after {
+    content: url(../../public/img/arbre-espoir.svg) ;
+    position: absolute;
+    left: 0;
+}
+
+.a1-esp-h1 {
+    padding-left: 20px;
+    padding-top: 500px;
+}
+
+.a1-esp-p1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.a1-esp-h1::after {
+    content: url(../../public/img/fond-beige-espoir.svg);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 680px;
+}
+
+.img1-esp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border: 3px solid #000000;
+    border-radius: 20px;    
+}
+
+.a2-esp-h1 {
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+

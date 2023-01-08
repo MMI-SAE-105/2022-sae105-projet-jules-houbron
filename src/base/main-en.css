@@ -134,7 +134,7 @@ body {
 }
 
 .test::after { 
-    content: url(../../public/img/Ellipse\ 2.svg);
+    content: url(../../public/img/Ellipse-2.svg);
     position: absolute;
     left: 0;
     width: 100%;
@@ -145,7 +145,7 @@ body {
 }
 
 .fc-container::after {
-    content: url(../../public/img/temple-black\ 1.svg);
+    content: url(../../public/img/temple-black-1.svg);
     z-index: -1;
     position: absolute;
     top: 722px;
@@ -156,7 +156,7 @@ body {
 }
 
 .sc-container::after {
-    content: url(../../public/img/Rectangle\ 23.svg);
+    content: url(../../public/img/Rectangle-23.svg);
     position: absolute;
     z-index: 0;
     max-width: 100%;
@@ -165,7 +165,7 @@ body {
 }
 
 .tc-container::after {
-    content: url(../../public/img/Vector\ 13.svg);
+    content: url(../../public/img/Vector-13.svg);
     position: absolute;
     z-index: 1;
     top: 1600px;
@@ -195,7 +195,7 @@ body {
 }
 
 .rectangle-intro-mf-fr::after {
-    content: url(../../public/img/MONTAGNE\ ROUGE.svg);
+    content: url(../../public/img/MONTAGNE-ROUGE.svg);
     position: absolute;
     top:89px;
     overflow: hidden;

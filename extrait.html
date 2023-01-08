@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extraits du livre</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/style.css">
 </head>
-<body>
+<body class="body-extrait">
+    <header class="header">
+        <img class="globe" src="public/img/globe-red 1.svg" alt="Icone planete">
+        <button aria-controls="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+          <img src="public/img/menu-red.svg" alt="icone de menu">
+        </button>
+        <nav id="mainNav" x-show="menuIsOpen"
+        class="menu">
+          <ul>
+            <li><img class="menu_logo_1" src="public/img/home-red 1.webp" alt="Maison rouge"><a class="menu_titre_1" href="/">Acceuil</a></li>
+            <li><img class="menu_logo_2" src="public/img/fujicons4 2.webp" alt="Montagne rouge"><a class="menu_titre_2" href="monf-fuji-fr.html">Le mont Fuji</a></li>
+            <li><img class="menu_logo_3" src="public/img/BOOK-RED 1.webp" alt="Livre rouge"><a class="menu_titre_3" href="tokyo-revengers-fr.html">Tokyo revengers</a></li>
+            <li><img class="menu_logo_4" src="public/img/MIC-RED 1.webp" alt="Microphone rouge"><a class="menu_titre_4" href="nepal-sundance-fr.html">Nepal - Sundace</a></li>
+            <li><img class="menu_logo_5" src="public/img/MOVIE-RED 1.webp" alt="Icone film"><a class="menu_titre_5" href="origine-fr.html">Origine</a></li>
+            <li><img class="menu_logo_6" src="public/img/HOPE-RED 1.webp" alt="Iconre espoir rouge"><a class="menu_titre_6" href="espoir-fr.html">Espoir</a></li>
+            <li><img class="menu_logo_7" src="public/img/REGRET-RED 1.webp" alt="Emojie triste rouge"><a class="menu_titre_7" href="regret-fr.html">Regres</a></li>
+            <li><img class="menu_logo_8" src="public/img/A Propos-red 1.webp" alt="Point d'interrogation rouge"><a class="menu_titre_8" href="/">A propos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="extrait">
     <h1>Extraits du livre</h1>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="public/img/1 1.png" alt="manga tokyo revengers">
+    <img src="public/img/1 2.png" alt="manga tokyo revengers">
+    <img src="public/img/1 3.png" alt="manga tokyo revengers">
+    </section>
 </body>
+<footer class="footer">
+    <div class="ligne-footer">
+    </div>
+    <h1 class="footer-title">Time Revenge</h1>
+<ul class="liste-footer">
+    <li><a href ="a-propos.html">A propos</a></li>
+    <li><a href="autres-projets.html">Autres projets</a></li>
+    <li><a href="contact-fr.html">Contact</a></li>
+    <li><a href="jules.houbron@gmail.com">Mailto</A></li>
+    <p class="disclaimer-footer">projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+    <p class="copyright">© Time Revenge BUT MMI 2022</p>
+</ul>
+</footer>
 </html>

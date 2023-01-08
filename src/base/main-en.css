@@ -277,7 +277,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 
-}
+}a3-mf-fr-p2
 
 .a2-mf-fr-p3::after {
     content: url(../../public/img/temple-mf.svg);
@@ -390,7 +390,7 @@ padding-right: 20px;
     overflow-x: hidden;
 }
 
-.h3-tr-fr::after {
+.h3-tr-en::after {
     content: url(../../public/img/fond-noir-tr.svg);
     position: absolute;
     left: 0px;
@@ -399,9 +399,9 @@ padding-right: 20px;
 }
 
 
-.h3-tr-fr {
+.h3-tr-en {
 color: #FFFFFF;
-padding-top: 550px;
+padding-top: 680px;
 padding-left: 20px;
 }
 
@@ -556,7 +556,7 @@ padding-top: 10px;
     content: url(../../public/img/fond-beige-nepal.svg);
     position: absolute;
     left: 0;
-    z-index: -1;
+    z-index: -2;
 }
 
 .a2-np-p4 {
@@ -774,6 +774,12 @@ video {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 70px;
+}
+
+.a3-reg-h1-en {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 
 .a3-reg-p1{

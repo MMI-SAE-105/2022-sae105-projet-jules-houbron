@@ -3,6 +3,7 @@
     position: relative;
     background-color: #ffff;
     margin-top: 50px;
+    z-index: -2;
 
 }
 
@@ -44,19 +45,22 @@ a {
     text-decoration: none;
 }
 
-.disclaimer-footer {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-.footer::before {    
+.footer::after {    
     position: absolute;
     overflow-x: hidden;
     left: 325px;
     top: 45px;
     width: 100%;
     content: url(../../public/img/Cercle.svg);
+    z-index: -1;
+}
+
+.disclaimer-footer {
+    font-family: 'Rubik';
+    font-style: normal;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    z-index: 2;
 }

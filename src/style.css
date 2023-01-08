@@ -15,6 +15,7 @@
     *   base
     */
     @import "base/mains.css";
+    @import url("base/main-en.css");
 /**
     *   règles de composition
     */

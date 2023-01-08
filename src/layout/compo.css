@@ -849,7 +849,7 @@ video {
     padding-top: 40px;
 }
 
-.body-frise img {
+.frise img {
     margin-left: 20px;
     margin-top: -25px;
 }
@@ -956,4 +956,46 @@ figcaption {
 .insta {
     margin-top: 20px;
     margin-left: 20px
+}
+
+.titre-autre {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.body-autre {
+    background-color: #FFFFFF;
+}
+
+.body-autre p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+
+.body-autre::after {
+    content: url(../../public/img/fond-ap.svg);
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+}
+
+.body-autre h3 {
+    margin-left: 20px;
+    margin-bottom: -90px;
+}
+
+.body-autre p {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.body-autre h3:first-child {
+    padding-top: 90px;
+} 
+
+.body-autre img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

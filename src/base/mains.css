@@ -282,7 +282,7 @@ body {
 .a2-mf-fr-p3::after {
     content: url(../../public/img/temple-mf.svg);
     position: absolute;
-    top: 2210px;
+    top: 2222px;
     left: 0px;
     z-index: -1;
     overflow: hidden;
@@ -1034,4 +1034,9 @@ figcaption {
 .body-contact form{
     margin-left:20px ;
     margin-right: 20px;
+}
+
+.body-contact button{
+   background: none;
+   border: none;
 }
